@@ -4,8 +4,14 @@
 - A user can renew or extend the registration by locking more deposit proportinal to name-fee per block. A user can also cancel his registration and should get his remaining deposit back.
 - Expired names need not be automatically cleared from storage but you can assume that they are transferred to the new owner post expiry, eg. Alice registers the name "foo" for 10 blocks in block 1, Bob can successfully register name "foo" from block 11.
 
-
 A new FRAME-based Substrate node, ready for hacking :rocket:
+## Types
+```
+{
+  "Address": "AccountId",
+  "LookupSource": "AccountId"
+}
+```
 
 ## Getting Started
 
